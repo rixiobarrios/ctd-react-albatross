@@ -4,7 +4,7 @@ import propTypes from 'prop-types';
 
 const TodoListItem = ({ todo, onRemoveTodo }) => {
     TodoListItem.propTypes = {
-        todo: propTypes.string,
+        todo: propTypes.object,
         onRemoveTodo: propTypes.func,
     };
 
